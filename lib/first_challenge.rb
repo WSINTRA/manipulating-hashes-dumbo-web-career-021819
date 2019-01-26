@@ -18,9 +18,10 @@ def first_challenge
 contacts.each do |value,data|
   data.each do |keys, values|
     values.each do |x|
+      binding.pry
       if x == "strawberry"
         x.slice()
-        binding.pry
+        
 end
 end
 end
