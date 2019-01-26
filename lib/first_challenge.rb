@@ -14,7 +14,11 @@ def first_challenge
   }
 
   #your code here
-
+contacts.each do |value,data|
+  data.each do |keys, values|
+    values.each do |x|
+      if x == "strawberry"
+        x.slice()
 
   #remember to return your newly altered contacts hash!
   contacts
