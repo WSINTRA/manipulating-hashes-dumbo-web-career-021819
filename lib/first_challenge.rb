@@ -21,7 +21,7 @@ contacts.each do |value,data|
       binding.pry
       if x == "strawberry"
         x.slice()
-        
+
 end
 end
 end
