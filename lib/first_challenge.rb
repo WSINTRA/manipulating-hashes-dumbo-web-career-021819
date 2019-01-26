@@ -20,6 +20,8 @@ contacts.each do |value,data|
       if x == "strawberry"
         x.slice()
 end
+end
+end
   #remember to return your newly altered contacts hash!
   contacts
 end
