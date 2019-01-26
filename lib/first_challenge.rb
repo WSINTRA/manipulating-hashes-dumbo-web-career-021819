@@ -1,3 +1,4 @@
+require 'pry'
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -19,6 +20,7 @@ contacts.each do |value,data|
     values.each do |x|
       if x == "strawberry"
         x.slice()
+        binding.pry
 end
 end
 end
