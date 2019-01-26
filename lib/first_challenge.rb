@@ -19,13 +19,14 @@ contacts.each do |value,data|
  if value == "Freddy Mercury"
   data.each do |keys, values|
     keys.each do |k|
+      binding.pry
       if k == "favorite_icecream_flavors"
         values.each do |x|
           if x == "strawberry"
             x.splice()
           end
         end
-binding.pry
+
       end
 
     end
