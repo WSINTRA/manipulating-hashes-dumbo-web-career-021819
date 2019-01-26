@@ -29,7 +29,7 @@ def first_challenge
         value.each do |flavor|
           # here, each index element in an ice cream flavor string
           if flavor == "strawberry"
-            flavor.splice()
+            flavor.slice!()
           end
         end
         end
