@@ -20,7 +20,7 @@ contacts.each do |value,data|
   data.each do |keys, values|
     keys.each do |k|
       if k == "favorite_icecream_flavors"
-        k.each do |x|
+        values.each do |x|
           if x == "strawberry"
             x.splice()
           end
