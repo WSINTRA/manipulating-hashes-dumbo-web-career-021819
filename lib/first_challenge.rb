@@ -19,7 +19,7 @@ contacts.each do |value,data|
     values.each do |x|
       if x == "strawberry"
         x.slice()
-
+end
   #remember to return your newly altered contacts hash!
   contacts
 end
