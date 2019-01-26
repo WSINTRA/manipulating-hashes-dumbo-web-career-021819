@@ -30,7 +30,7 @@ def first_challenge
           # here, each index element in an ice cream flavor string
           flavor.delete_if("strawberry")
         
-          end
+        
         end
         end
       end
