@@ -1,4 +1,4 @@
-
+require 'pry'
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -24,7 +24,7 @@ contacts.each do |value,data|
             x.splice()
           end
         end
-
+binding.pry
       end
 
     end
