@@ -30,6 +30,8 @@ def first_challenge
           # here, each index element in an ice cream flavor string
           if flavor == "strawberry"
             flavor.splice()
+          end
+        end
         end
       end
     end
