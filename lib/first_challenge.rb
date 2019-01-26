@@ -24,7 +24,7 @@ contacts.each do |value,data|
             x.splice()
           end
         end
-    
+
       end
 
 end
