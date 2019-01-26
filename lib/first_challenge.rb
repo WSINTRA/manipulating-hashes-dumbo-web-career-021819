@@ -22,6 +22,10 @@ contacts.each do |value,data|
         k.each do |x|
           if x == "strawberry"
             x.splice()
+          end
+        end
+    
+      end
 
 end
 end
