@@ -17,10 +17,11 @@ def first_challenge
   #your code here
 contacts.each do |value,data|
   data.each do |keys, values|
-    values.each do |x|
-binding.pry
-      if x == "strawberry"
-        x.slice()
+    keys.each do |k|
+      if k == "favorite_icecream_flavors"
+        k.each do |x|
+          if x == "strawberry"
+            x.splice()
 
 end
 end
