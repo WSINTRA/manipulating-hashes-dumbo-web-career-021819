@@ -16,6 +16,7 @@ def first_challenge
 
   #your code here
 contacts.each do |value,data|
+ if value == "Freddy Mercury"
   data.each do |keys, values|
     keys.each do |k|
       if k == "favorite_icecream_flavors"
