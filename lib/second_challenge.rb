@@ -8,6 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.values
+  output = groceries.values
+  output.join
 
 end
